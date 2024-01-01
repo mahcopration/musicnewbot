@@ -14,22 +14,22 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","Mahsoommjm")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "YumikooBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MAH_MUSIC_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Yumikoo")
+BOT_NAME = getenv("BOT_NAME" , "MAH MUSIC 🎵🥁")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
-EVALOP = list(map(int, getenv("EVALOP", "2105971379 5360305806 6691393517").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "MAH_MUSIC_ASSISTANT")
+EVALOP = list(map(int, getenv("EVALOP", "6112399514").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001802990747))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002053118478))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6691393517))
+OWNER_ID = int(getenv("OWNER_ID", 6112399514))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,18 +39,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DAXXTEAM/DAXXMUSIC",
+    "https://github.com/mahcopration/musicnewbot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALLTYPECC")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HEROKUFREECC")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Call_me_futurepilot")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Tamil_HDLatest_Movies")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -59,7 +59,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b582008
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 50))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -85,21 +85,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/4af93e106a8ea90fbee00.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/1b4024f4ae641d843653b.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/48f39202823b358203234.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/4cf4e54b18741a1304921.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/bd837a89ee0a6ae27b763.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1b4024f4ae641d843653b.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/4af93e106a8ea90fbee00.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/4cf4e54b18741a1304921.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/bd837a89ee0a6ae27b763.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/1b4024f4ae641d843653b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/4af93e106a8ea90fbee00.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/4cf4e54b18741a1304921.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/4af93e106a8ea90fbee00.jpg"
 
 
 def time_to_seconds(time):
